@@ -24,13 +24,14 @@
 <body>
 <main>
 <h1>Starfurrow: Privacy Policy</h1>
-<p class="meta">Last updated: 15 November 2026</p>
+<p class="meta">Last updated: 16 November 2026</p>
 
 <p>Starfurrow ("the game") is a puzzle game for Android made by <strong>Causality</strong> ("we", "us"). This policy explains what information the game and the services it uses handle, why, and what choices you have. Contact: <a href="mailto:dev.causality@gmail.com">dev.causality@gmail.com</a>.</p>
 
 <h2>The short version</h2>
 <ul>
   <li>You do not need an account to play. We do not ask for your name, email address, phone number, contacts, photos or location.</li>
+  <li>If you choose to, you can sign in with Google to keep a copy of your progress in the cloud (section 1b). This is optional, and you can delete the copy and the sign-in at any time from Settings.</li>
   <li>Your progress is saved on your own phone. If your phone backs up to your Google account, Android includes the game's save in that backup (section 1). We cannot see it.</li>
   <li>The game shows ads that you choose to watch and sells optional in-app purchases. The services that do this (Google AdMob, Google Play and RevenueCat) process some technical data, described below.</li>
   <li>With your agreement where the law requires it, the game sends anonymous game statistics and crash reports (Google Firebase) so we can fix problems and balance the levels. You can switch this off in Settings.</li>
@@ -43,6 +44,10 @@
 <p><strong>If you email us</strong> (for example with Send feedback or Request or delete my data in Settings), we receive your email address, your message and the details the game adds to it (game version, phone model and the anonymous player ID). We use them only to answer you and to fix problems, and delete them when they are no longer needed.</p>
 
 <p><strong>Reminders.</strong> If you switch on reminders, the game asks Android for permission to show notifications and schedules them on your phone. They are created and kept on the phone; no server of ours is involved. You can switch them off in Settings or in your phone's notification settings.</p>
+
+<h2 id="cloud-save">1b. Cloud save (optional, with Google sign-in)</h2>
+<p>In Settings &gt; <em>Cloud save</em> you can sign in with your Google account. The game then keeps a copy of your progress (levels and stars, coins, boosters, gift boxes, daily reward streak, purchase status and which tips you have seen) in Google Firebase (Authentication and Cloud Firestore, stored in the EU), so you can continue on another phone. We receive and store: a Firebase user ID, the name on your Google account (shown in Settings as "Signed in as"), the progress copy with a short summary (level and number of stars), the time it was saved and the game version. Google also gives Firebase your email address as part of signing in; we do not use it for anything else. Sound, look and privacy settings and the anonymous player ID are not uploaded.</p>
+<p>Each player can only read and change their own copy. You can <strong>sign out</strong> at any time (the copy stays so you can sign in again later), or tap <strong>Delete cloud save and account</strong>, which immediately deletes the copy and your Starfurrow sign-in account. Progress on your phone is not affected. If you no longer have the game, email us (section 10) and we delete it for you.</p>
 
 <h2>2. Information handled by the services in the game</h2>
 <table>
@@ -61,6 +66,11 @@
     <td>Firebase Remote Config (Google)</td>
     <td>Adjusting game settings, such as rewards and level difficulty, without an app update.</td>
     <td>An installation identifier, app version, device and country information. No game progress is sent.</td>
+  </tr>
+  <tr>
+    <td>Firebase Authentication and Cloud Firestore (Google)</td>
+    <td>Only if you sign in for cloud save: signing in with Google and storing your progress copy (section 1b).</td>
+    <td>Firebase user ID, your Google account name and email address, the progress copy and when it was saved, app version, IP address.</td>
   </tr>
   <tr>
     <td>RevenueCat</td>
@@ -82,23 +92,24 @@
   <li><strong>Ad consent.</strong> If you are in the EEA, UK or Switzerland, Settings shows <em>Ad choices</em>, where you can change or withdraw your consent at any time.</li>
   <li><strong>Advertising ID.</strong> In your Android settings you can reset your advertising ID or opt out of ads personalisation (Settings &gt; Privacy &gt; Ads; the exact path depends on your device).</li>
   <li><strong>Backup.</strong> Switch Android backup on or off in your phone's settings (section 1).</li>
+  <li><strong>Cloud save.</strong> Sign in, sign out, or delete the cloud copy and your sign-in account in Settings &gt; <em>Cloud save</em> (section 1b).</li>
 </ul>
 
 <h2>4. Legal basis (EEA, UK and Switzerland)</h2>
-<p>We rely on your consent for advertising identifiers and for analytics and crash reporting, which you can withdraw at any time as described above. We rely on performance of a contract to process purchases you make, and on our legitimate interest in running and securing the game for the technical data needed to deliver it.</p>
+<p>We rely on your consent for advertising identifiers and for analytics and crash reporting, which you can withdraw at any time as described above. We rely on performance of a contract to process purchases you make and to provide cloud save when you sign in for it, and on our legitimate interest in running and securing the game for the technical data needed to deliver it.</p>
 
 <h2>5. Retention</h2>
-<p>We keep no copy of your progress. Analytics and crash data is kept by Google for a limited period set in our Firebase project settings and is then deleted automatically. Purchase records are kept by RevenueCat and Google Play as long as needed to provide the purchases and to meet legal obligations.</p>
+<p>We keep no copy of your progress unless you use cloud save; then the copy is kept until you delete it in Settings (or ask us to), and cloud save accounts that have not been used for 24 months may be deleted. Analytics and crash data is kept by Google for a limited period set in our Firebase project settings and is then deleted automatically. Purchase records are kept by RevenueCat and Google Play as long as needed to provide the purchases and to meet legal obligations.</p>
 
 <h2 id="delete-data">6. Your rights, and deleting your data</h2>
-<p>Depending on where you live, you may have the right to access, correct or delete personal data, to restrict or object to its processing, to data portability, and to withdraw consent. Because the game has no accounts, we do not know who you are. To find your data we need the anonymous player ID: in the game, open Settings &gt; <em>Request or delete my data</em>. It opens your email app with a message to us that already contains the ID; tell us what you would like and press Send. We answer within 30 days. Resetting your advertising ID and uninstalling the game also detach the game from the data collected so far.</p>
+<p>Depending on where you live, you may have the right to access, correct or delete personal data, to restrict or object to its processing, to data portability, and to withdraw consent. If you do not use cloud save, the game has no accounts and we do not know who you are. If you do, you can delete your cloud save and sign-in account yourself in Settings &gt; <em>Cloud save</em>. To find your data we need the anonymous player ID: in the game, open Settings &gt; <em>Request or delete my data</em>. It opens your email app with a message to us that already contains the ID; tell us what you would like and press Send. We answer within 30 days. Resetting your advertising ID and uninstalling the game also detach the game from the data collected so far.</p>
 <p><strong>Deleting your data, step by step:</strong></p>
 <ol>
   <li>In Starfurrow, open Settings and tap <em>Request or delete my data</em>.</li>
   <li>Your email app opens with a message to us that already contains your anonymous player ID. Write "Please delete my data" and send it.</li>
   <li>We delete your data within 30 days and reply to confirm.</li>
 </ol>
-<p><strong>What is deleted:</strong> the game statistics and crash reports linked to your player ID (Firebase), and your customer record at RevenueCat (the anonymous ID and its purchase history). <strong>What is kept:</strong> Google Play's own payment records, which Google keeps under its terms and the law, and our email exchange about the request, kept for up to 12 months as a record that it was handled. The save on your phone is deleted when you uninstall the game or clear its data, and the copy in your Google account backup is managed in your phone's backup settings.</p>
+<p><strong>What is deleted:</strong> your cloud save and sign-in account, if you have one (or delete them yourself in Settings), the game statistics and crash reports linked to your player ID (Firebase), and your customer record at RevenueCat (the anonymous ID and its purchase history). <strong>What is kept:</strong> Google Play's own payment records, which Google keeps under its terms and the law, and our email exchange about the request, kept for up to 12 months as a record that it was handled. The save on your phone is deleted when you uninstall the game or clear its data, and the copy in your Google account backup is managed in your phone's backup settings.</p>
 <p>If you are in the EEA, you can complain to your local data protection authority (in Sweden: Integritetsskyddsmyndigheten, IMY).</p>
 
 <h2>7. Players in Japan</h2>
